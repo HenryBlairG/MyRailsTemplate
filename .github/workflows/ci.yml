@@ -2,11 +2,11 @@ name: CI
 on:
   push:
     branches:
-      - master
-      - development
+      - main
+      - dev
   pull_request:
     branches:
-      - development
+      - dev
 jobs:
   tests:
     name: Tests and linters
